@@ -11,7 +11,7 @@
     <img src = "https://github.com/Nikks27/quotes_app/assets/148762716/a80ffbc5-4387-419b-8358-771313cf367f" height ="550">
      <img src = "https://github.com/Nikks27/quotes_app/assets/148762716/11e06986-1a05-4bd7-8f18-6afe53aa4b8a" height ="550">
       <img src = "https://github.com/Nikks27/quotes_app/assets/148762716/f6ff0236-0b46-4683-a370-c6693cc57521" height ="550">
-       <img src = "https://github.com/Nikks27/quotes_app/assets/148762716/3f3af082-946b-4d5d-a881-4bcd8aa2fea3" height ="550">
+       <img src = "https://github.com/Nikks27/quotes_app/assets/148762716/2bd3f659-bc43-44c0-aef2-725eecca4a71" height ="550">
         <img src = "https://github.com/Nikks27/quotes_app/assets/148762716/d06c7ecf-22a7-4fdc-a3d1-6cded70617d8" height ="550">
          <img src = "https://github.com/Nikks27/quotes_app/assets/148762716/8fb4fdba-d601-46cc-9af2-386105a952cb" height ="550">
           
