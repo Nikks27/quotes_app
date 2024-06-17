@@ -1,7 +1,5 @@
 # quotes_app
 
-# quotes_app
-
 <h1 align="center"> 1.quotes_app </h1>
 
 <h1 align="left"></h1>
