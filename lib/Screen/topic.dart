@@ -35,7 +35,7 @@ class _TopicScreenState extends State<TopicScreen> {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.only(left: 10, right: 10, top: 10),
+        padding: const EdgeInsets.only(left: 10, right: 10, top: 5),
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -43,10 +43,10 @@ class _TopicScreenState extends State<TopicScreen> {
                 height: height * 0.12,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                    color: Colors.black,
+                    color: Colors.grey.shade400,
                     borderRadius: BorderRadius.circular(8),
                     image: DecorationImage(
-                        image: AssetImage('assets/theme/pre.jpg'),
+                        image: AssetImage('no image'),
                         fit: BoxFit.cover)),
                 child: Padding(
                   padding: const EdgeInsets.only(left: 30, right: 30),
@@ -93,7 +93,7 @@ class _TopicScreenState extends State<TopicScreen> {
                       child: Container(
                         margin: EdgeInsets.all(8),
                         height: height * 0.126,
-                        width: width * 0.4363,
+                        width: width * 0.432,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           color: Colors.white,

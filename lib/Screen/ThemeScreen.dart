@@ -44,41 +44,11 @@ class _ThemeScreenState extends State<ThemeScreen> {
           ),
         ),
         child: Padding(
-          padding: const EdgeInsets.only(left: 10, right: 10, top: 10),
+          padding: const EdgeInsets.only(left: 10, right: 10, top: 60),
           child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                  height: height * 0.12,
-                  width: double.infinity,
-                  decoration: BoxDecoration(
-                      color: Colors.black,
-                      borderRadius: BorderRadius.circular(8),
-                      image: DecorationImage(
-                          image: AssetImage('assets/theme/pre.jpg'),
-                          fit: BoxFit.cover)),
-                  child: Padding(
-                    padding: const EdgeInsets.only(left: 30, right: 30),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          'Upgrade to Premium',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 25,
-                              fontWeight: FontWeight.w400),
-                        ),
-                        Icon(
-                          CupertinoIcons.right_chevron,
-                          color: Colors.white,
-                          size: 25,
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(
@@ -210,68 +180,6 @@ class _ThemeScreenState extends State<ThemeScreen> {
                                 ),
                               ),
                             ),
-                          ],
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 10, top: 10),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text('Text Alignment',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.w400,
-                              fontSize: 28)),
-                      SingleChildScrollView(
-                        scrollDirection: Axis.horizontal,
-                        child: Row(
-                          children: [
-                            InkWell(
-                              onTap: () {
-                                setState(() {
-                                  align = TextAlign.left;
-                                });
-                                Navigator.of(context).pushNamed('/quote');
-                              },
-                              child: Icon(
-                                CupertinoIcons.text_alignleft,
-                                color: Colors.white,
-                                size: 42,
-                              ),
-                            ),
-                            SizedBox(width: width*0.1,),
-                            InkWell(
-                              onTap: () {
-                                setState(() {
-                                  align = TextAlign.center;
-                                });
-                                Navigator.of(context).pushNamed('/quote');
-                              },
-                              child: Icon(
-                                CupertinoIcons.text_aligncenter,
-                                color: Colors.white,
-                                size: 42,
-                              ),
-                            ),
-                            SizedBox(width: width*0.1,),
-                            InkWell(
-                              onTap: () {
-                                setState(() {
-                                  align = TextAlign.right;
-                                });
-                                Navigator.of(context).pushNamed('/quote');
-                              },
-                              child: Icon(
-                                CupertinoIcons.text_alignright,
-                                color: Colors.white,
-                                size: 42,
-                              ),
-                            ),
-                            SizedBox(height: height*0.1,),
                           ],
                         ),
                       ),

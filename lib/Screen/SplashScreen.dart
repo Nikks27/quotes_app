@@ -29,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
           child: Image(
             fit: BoxFit.cover,
             image: AssetImage(
-              'assets/Splash.jpg',
+              'assets/spashscreen.webp',
             ),
           ),
         ),

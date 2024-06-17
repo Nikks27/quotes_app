@@ -38,7 +38,9 @@ dependencies:
   google_fonts: ^6.2.1
   path_provider: ^2.1.3
   image_gallery_saver: ^2.0.3
+  image_picker: ^1.1.2
   share_extend: ^2.0.0
+  flutter_wallpaper_manager: ^0.0.4
 
 dev_dependencies:
   flutter_test:
@@ -68,46 +70,55 @@ flutter:
   #   - images/a_dot_ham.jpeg
 
   assets:
-    - assets/quotation-39627_1920.png
-    - assets/theme/ai-generated-8445855_1920.jpg
-    - assets/theme/alps-7530950_1920.jpg
-    - assets/theme/automotive-7593064_1920.jpg
+    - assets/theme/bagan-1029303_1920.jpg
     - assets/theme/beach image.webp
-    - assets/theme/beach-5526592_1920.jpg
-    - assets/theme/boat-3062045_1920.jpg
-    - assets/theme/boat-8614314_1920.jpg
-    - assets/theme/bowl-6471185_1920.jpg
     - assets/theme/compass-7592447_1920.jpg
     - assets/theme/festive-season-7595610_1920.jpg
     - assets/theme/field-1728099_1920.jpg
-    - assets/theme/fire image.jpg
-    - assets/theme/fire-1842140_1920.jpg
-    - assets/theme/fire-2821775_1920.jpg
+    - assets/theme/floral-background-6622475_1920.png
     - assets/theme/flower-4905417_1920.jpg
-    - assets/theme/flowers-5209386_1920.jpg
     - assets/theme/flowers-7686890_1920.jpg
     - assets/theme/grass-4050336_1920.jpg
     - assets/theme/lake-2582649_1920.jpg
-    - assets/theme/lake-7437204_1920.jpg
-    - assets/theme/lake-7925872_1920.jpg
     - assets/theme/landscape-4347888_1920.jpg
-    - assets/theme/lighthouse-5525698_1920.jpg
-    - assets/theme/meadow-8071932_1920.jpg
     - assets/theme/milky-way-559641_1920.jpg
-    - assets/theme/mountains-3699372_1920.jpg
+    - assets/theme/mountains-55067_640.png
     - assets/theme/mountains-4950252_1920.jpg
-    - assets/theme/mountains-7583710_1920.jpg
     - assets/theme/nature-7175030_1920.jpg
-    - assets/theme/norway-8593725_1920.jpg
     - assets/theme/poppies-174276_1920.jpg
     - assets/theme/road-6724201_1920.jpg
     - assets/theme/sun-5459234_1920.jpg
-    - assets/theme/sunset-2582691_1920.jpg
     - assets/theme/sunset-7007680_1920.jpg
-    - assets/theme/sunset-7112135_1920.jpg
+    - assets/theme/trees-7191822_1920.png
     - assets/theme/vintage-pocket-watch-7439233_1920.jpg
-    - assets/theme/vintage-pocket-watch-7439236_1920.jpg
-    - assets/theme/water-6706894_1920.jpg
+    - assets/topic/breackup.jpg
+    - assets/topic/change.jpg
+    - assets/topic/creativitiy.jpg
+    - assets/topic/Discipline.webp
+    - assets/topic/divorce_time.jpg
+    - assets/topic/education.jpg
+    - assets/topic/Enterpreneur.webp
+    - assets/topic/family.jpg
+    - assets/topic/focus.jpg
+    - assets/topic/freedome.jpg
+    - assets/topic/freinds.jpg
+    - assets/topic/goal.jpg
+    - assets/topic/happyness.jpg
+    - assets/topic/health.jpg
+    - assets/topic/hope.jpg
+    - assets/topic/kind.jpeg
+    - assets/topic/leader.jpg
+    - assets/topic/love.jpg
+    - assets/topic/marriage.webp
+    - assets/topic/money.webp
+    - assets/topic/Positivity.jpeg
+    - assets/topic/respect.jpg
+    - assets/topic/sad.jpg
+    - assets/topic/sports.jpg
+    - assets/topic/strong.jpg
+    - assets/topic/success.jpg
+    - assets/topic/trust.jpg
+    - assets/spashscreen.webp
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
